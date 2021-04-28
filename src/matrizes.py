@@ -118,10 +118,3 @@ while(i < 4):
     else:
         print(f'{A[i][j]}\t', end = "")
         j = j + 1
-
-print("A * B = C")                                      # Aij = Bji
-
-i = 0
-while(i < 4):
-    if i == j:
-        C[i][j] = A[i] * B[j]
