@@ -24,9 +24,6 @@ C = [
 ]
 
 
-
-
-
 print("A triangular superior")
 
 i = 0
@@ -39,20 +36,3 @@ while(i < 4):
         print("")
         i = i + 1
         j = i
-
-
-
-
-print("A triangular inferior")
-
-i = 0
-j = 0
-while(i < 4):
-    if j == i:
-        print(f'{A[i][j]}\t', end = "")
-        i = i + 1
-        j = 0
-        print("")
-    else:
-        print(f'{A[i][j]}\t', end = "")
-        j = j + 1
