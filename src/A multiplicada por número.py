@@ -1,20 +1,9 @@
 import sys
 import os
 import string
+import lerMatriz
 
-A = [
-    [1, 2, 3, 4],
-    [1, 2, 3, 4],
-    [1, 2, 3, 4],
-    [1, 2, 3, 4]
-]
-
-B = [
-    [1, 2, 3, 4],
-    [1, 2, 3, 4],
-    [1, 2, 3, 4],
-    [1, 2, 3, 4]
-]
+A = lerMatriz.Ler("matriz_A.txt")
 
 C = [
     [0, 0, 0, 0],
